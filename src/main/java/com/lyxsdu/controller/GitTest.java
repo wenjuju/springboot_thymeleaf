@@ -5,5 +5,6 @@ public class GitTest {
         System.out.println("测试git功能的类");
         System.out.println("hotfix——commit01");
         System.out.println("matst合并冲突测试commit01");
+        System.out.println("hotfix--conmit02");
     }
 }
