@@ -35,6 +35,7 @@ public class login {
     public  String admin2(User user, HttpSession session){
         //防止直接被用户用路径访问，这个地方得加拦截器，或者判断。满足条件才能跳转，不满足即没登录，得跳转到登录页。
         System.out.println("123");
+        System.out.println("版本2");
         return "main";
     }
 }
